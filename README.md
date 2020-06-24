@@ -59,14 +59,14 @@ This document will cover the basics of state management in redux. It covers the 
 -   Reducers don’t want to mess anything up, so they don’t change the state that has been passed in to them. Instead, they make a copy and make all their changes on the copy.
 
 <p align="center">
-<img src="reducer.png" alt="drawing" width="200" />
+<img src="reducer.png" alt="drawing" width="400" />
 </p>
 
 -   This is one of the key ideas of Redux. The state object isn’t manipulated directly. Instead, each slice is copied and then all of the slices are combined into a new state object.
 -   The reducers pass their copies back to the root reducer, which pastes the copies together to form the updated state object. Then the root reducer sends the new state object back to the store, and the store makes it the new official state.
 
 <p align="center">
-<img src="reducer2.png" alt="drawing" width="200" />
+<img src="reducer2.png" alt="drawing" width="400" />
 </p>
 
 ---
@@ -129,7 +129,7 @@ This document will cover the basics of state management in redux. It covers the 
 Now that the application is set up, the user can start interacting with it. Let’s trigger an action to see the data flow.
 
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*Je2mow8mjYLngXreGGlIEg.png" alt="drawing" width="500" />
+<img src="https://miro.medium.com/max/1400/1*Je2mow8mjYLngXreGGlIEg.png" alt="drawing" width="700" />
 </p>
 
 1. The view requests an action. The action creator formats it and returns it.
