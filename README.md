@@ -17,7 +17,7 @@ This document will cover the basics of state management in redux. It covers the 
 
 # Main characters of Redux
 
-#### Action Creators
+### Action Creators
 
 <p align="center">
 <img src="https://miro.medium.com/max/800/1*Uljrrh4Z7UiUwk8AjUO9PA.png" alt="drawing" width="200" />
@@ -112,7 +112,7 @@ This document will cover the basics of state management in redux. It covers the 
 
 # How it all ties together
 
-## The setup
+### The setup
 
 1. Get the store ready. The root component creates the store, telling it what root reducer to use, using createStore(). This root reducer already has a team of reducers which report to it. It assembled that team of reducers using combineReducers().
 
@@ -124,7 +124,7 @@ This document will cover the basics of state management in redux. It covers the 
 
 ---
 
-## The Data flow
+### The Data flow
 
 Now that the application is set up, the user can start interacting with it. Let’s trigger an action to see the data flow.
 
