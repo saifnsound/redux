@@ -1,6 +1,6 @@
 # State Management in Redux
 
-This document will cover the basics of state management in redux. It covers the following topics:
+This document covers the basics of state management in redux.
 
 -   Introduction to Redux.
 -   Main Characters of Redux.
